@@ -1,6 +1,6 @@
-# Web Environment Integrity Explainer
+# DRM Web Explainer
 
-## Authors:
+## These peoples...:
 
 - Ben Wiser (Google)
 - Borbala Benko (Google)
@@ -8,9 +8,9 @@
 - Sergey Kataev (Google)
 
 ## Participate
-- [Issue tracker](https://github.com/RupertBenWiser/Web-Environment-Integrity/issues)
+- [Issue tracker](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-## Table of Contents
+## Table of Contents for reasons why they gonna put DRM garbage on free things
 
 - [Introduction](#introduction)
 - [Web environment integrity](#web-environment-integrity)
@@ -94,17 +94,14 @@ significant value-add even in the case where verdicts are not deterministically 
 
 ## Goals
 
-- Allow web servers to evaluate the authenticity of the device and honest representation of the
-software stack and the traffic from the device.
-- Offer an adversarially robust and long-term sustainable anti-abuse solution.
-- Don't enable new cross-site user tracking capabilities through attestation.
-- Continue to allow web browsers to browse the Web without attestation.
+- To be like on ATSC 3.0 in some markets.
+- Making people's lives on the Internet worse. Seriously.
 
 ## Non-goals
 
 - Enable reliable client-side validation of verdicts: Signatures must be validated server-side, as
 client javascript may be modified to alter the validation result. 
-- Enforce or interfere with browser functionality, including plugins and extensions.
+- Enforce or interfere with browser functionality, including plugins and extensions. (Making ad blocking harder. More XM Broker and other uninterested brokerage ads? Hell no.)
 - Access to this functionality from non-[Secure Contexts](https://www.w3.org/TR/secure-contexts/).
 
 ## Example use cases
